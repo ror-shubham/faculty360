@@ -1,0 +1,15 @@
+.color-yellow{
+	background-color: #FDD359 !important;
+	padding-right:  30px;
+	padding-left:  30px;
+}
+.search{
+	width: 60%;
+	float: center;
+	position: absolute;
+	left:20%;
+}
+h1{	
+	position: relative;
+	left: 25%;
+}
