@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
 	<title>Job Listings</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="index.css">
+	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" type="text/css" href="js/bootstrap-slider-master/dist/css/bootstrap-slider.min.css"/>
+	<script type="text/javascript" src="js/bootstrap-slider-master/dist/bootstrap-slider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/jquery-labelauty-master/source/jquery-labelauty.css"/>
+	<script type="text/javascript" src="js/jquery-labelauty-master/source/jquery-labelauty.js"></script>
 
 </head>
 <body>  
@@ -41,6 +47,240 @@
     <div id="demo" class="collapse">
     	<button class="btn btn-md btn-nav not-active ">LOG IN</button>
     	<button class="btn btn-md btn-nav btn-active ">SIGN UP</button>
+    </div>
+
+    
+    <div class="container-fluid padding-top-20 contentarea2">
+    <div class="well col-sm-3 hidden-xs">
+        <div class="hr container-fluid padding0">
+            <h4 class="float-left"><b>Filters</b></h4>
+            <h5 class="float-right"><b>CLEAR ALL</b></h5>
+        </div>   
+        <div class="col-xs-12 hr">
+            <h4><b>SALARY</b> <span class="smalltext">(in lakhs)</span></h4>
+            <div class="flex_justify_content">
+                <input id="ex12c" type="text" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/><br/>
+                
+            </div>
+            <div class="float-left"><h5><b>1 Lakh</b></h4></div>
+            <div class="float-right" style="margin-right:17px;"><h5><b>19 Lakh</b></h4></div>  
+        </div>
+        <div class="hr">
+            <div class="container-fluid padding-top-20">
+              <form>
+                <div class="form-group">
+                  <label for="sel1"><h4><b>EXPERIENCE</b></h4></label>
+                  <select class="form-control" id="sel1">
+                    <option>1 Year</option>
+                    <option>2 Year</option>
+                    <option>3 Year</option>
+                    <option>4 Year</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="hr container-fluid padding0">
+          <div class="panel-group">
+            <div class="panel">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a><b>STATE</b></a>
+                  <span class="pull-right glyphicon glyphicon1 glyphicon-chevron-down" data-toggle="collapse" href="#collapse1"></span>
+                </h4>
+                
+              </div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio" checked>Option 1</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio">Option 2</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio">Option 3</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hr container-fluid padding0">
+          <div class="panel-group">
+            <div class="panel">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a><b>CITY</b></a>
+                  <span class="pull-right glyphicon glyphicon2 glyphicon-chevron-down" data-toggle="collapse" href="#collapse2"></span>
+                </h4>
+                
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio1" checked>Option 1</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio1">Option 2</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio1">Option 3</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hr container-fluid padding0">
+          <div class="panel-group">
+            <div class="panel">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a><b>ROLE</b></a>
+                  <span class="pull-right glyphicon glyphicon3 glyphicon-chevron-down" data-toggle="collapse" href="#collapse3"></span>
+                </h4>
+                
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio2" checked>Option 1</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio2">Option 2</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio2">Option 3</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hr container-fluid padding0">
+          <div class="panel-group">
+            <div class="panel">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a><b>EDUCATIONAL QUALIFICATION</b></a>
+                  <span class="pull-right glyphicon glyphicon4 glyphicon-chevron-down" data-toggle="collapse" href="#collapse4"></span>
+                </h4>
+                
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio3" checked>Option 1</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio3">Option 2</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio3">Option 3</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hr container-fluid padding0">
+          <div class="panel-group">
+            <div class="panel">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a><b>JOB TYPE</b></a>
+                  <span class="pull-right glyphicon glyphicon5 glyphicon-chevron-down" data-toggle="collapse" href="#collapse5"></span>
+                </h4>
+                
+              </div>
+              <div id="collapse5" class="panel-collapse collapse">
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio4" checked>Option 1</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio4">Option 2</label>
+                </div>
+                <div class="radio list-group-item">
+                  <label><input type="radio" name="optradio4">Option 3</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <div class="col-sm-9 contentarea padding-bottom-20 padding-top-20">
+    <h2 style="padding-left:30px;">Top Faculty jobs in India <span class="smalltext">(Showing 3 of 230 jobs)</span></h2>
+    <nav class="navbar hidden-xs" style="margin-bottom:0;">
+      <div class="container-fluid hr">
+
+        <ul class="float-right sort">
+          <li class="float-right"><a href="#">Alphabet</a></li>
+          <li class="float-right"><a href="#">Nearest Deadline</a></li>
+          <li class="float-right"><a href="#">Popularity</a></li>
+          <li class="float-right"><a id="focusmeplease" href="#" class="active">Freshness</a></li>
+          <li class="float-right"><b>Sort by :</b></li>
+        </ul>
+      </div>
+    </nav>
+	<div class="container-fluid">
+      <div class="col-xs-12">
+        <div class="well col-xs-12 margin-bottom-20">
+            <div class="col-xs-12 flex padding-top-20">
+                <div class="col-sm-2 hidden-xs"><img src="https://www.iitr.ac.in/acm/img/parallax-slider/logo.gif" class="img-responsive" width="100" height="100"/></div>
+                <div class="col-sm-10"><h4>Asst Professor of Life Sciences in IIT Guwahati Guwahati</h4>
+                <h5>Posted On : <b>1 month ago</b>&nbsp;&nbsp;&nbsp; Role : <b>Associate Professor</b>&nbsp;&nbsp;&nbsp; Job Type : <b> Full Time</b></h5>
+                </div>
+            </div>
+            <hr class="col-xs-12">
+                <div class="col-xs-12 padding-bottom-20 padding-top-20">
+                    <p>Job Description:</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="btn btn-primary">APPLY NOW</button>
+                
+                </div>
+            
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="well col-xs-12 margin-bottom-20">
+            <div class="col-xs-12 flex padding-top-20">
+                <div class="col-sm-2 hidden-xs"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/IIT_Guwahati_Logo.svg/1014px-IIT_Guwahati_Logo.svg.png" class="img-responsive" width="100" height="100"/></div>
+                <div class="col-sm-10"><h4>Asst Professor of Life Sciences in IIT Guwahati Guwahati</h4>
+                <h5>Posted On : <b>1 month ago</b>&nbsp;&nbsp;&nbsp; Role : <b>Associate Professor</b>&nbsp;&nbsp;&nbsp; Job Type : <b> Full Time</b></h5>
+                </div>
+            </div>
+            <hr class="col-xs-12">
+                <div class="col-xs-12 padding-bottom-20 padding-top-20">
+                    <p>Job Description:</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="btn btn-primary">APPLY NOW</button>
+                
+                </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="well col-xs-12 margin-bottom-20">
+            <div class="col-xs-12 flex padding-top-20">
+                <div class="col-sm-2 hidden-xs"><img src="https://www.iitr.ac.in/acm/img/parallax-slider/logo.gif" class="img-responsive" width="100" height="100"/></div>
+                <div class="col-sm-10"><h4>Asst Professor of Life Sciences in IIT Guwahati Guwahati</h4>
+                <h5>Posted On : <b>1 month ago</b>&nbsp;&nbsp;&nbsp; Role : <b>Associate Professor</b>&nbsp;&nbsp;&nbsp; Job Type : <b> Full Time</b></h5>
+                </div>
+            </div>
+            <hr class="col-xs-12">
+                <div class="col-xs-12 padding-bottom-20 padding-top-20">
+                    <p>Job Description:</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="btn btn-primary">APPLY NOW</button>
+                
+                </div>
+        </div>
+      </div>          
+    </div>
+    <div class="flex_justify_content padding-top-20 padding-bottom-20">
+        <button type="submit" class="btn btn-succ btn-succ-left">
+            <span class="glyphicon glyphicon-triangle-left"></span> prev
+        </button>
+        <button type="submit" class="btn btn-succ btn-succ-middle">1</button>
+        <button type="submit" class="btn btn-succ btn-succ-middle">2</button>
+        <button type="submit" class="btn btn-succ btn-succ-middle">3</button>
+        <button type="submit" class="btn btn-succ btn-succ-right">next <span class="	glyphicon glyphicon-triangle-right"></span>
+        </button>
+    </div>
+    </div>  
     </div>
     
     <footer class="container-fluid hidden-xs">
@@ -96,7 +336,30 @@
             </ul>
           </div>
         </nav>
-      </footer>   
+   
+      </footer> 
+</div>
+    
+    <script>
+        $('#focusmeplease').focus();
+        
+        $("#ex12c").slider({ id: "slider12c", min: 1, max: 19, range: true, value: [4, 8], tooltip: 'always', tooltip_split: true });
+        
+        $(document).ready(function () {
+            $('.glyphicon1,.glyphicon2,.glyphicon3,.glyphicon4,.glyphicon5').click(function () {
+                $(this).toggleClass("glyphicon-chevron-down").toggleClass("glyphicon-chevron-up");
+            });
+        });
+        
+ $(document).ready(function(){
+	$(":radio").labelauty({ label: false, separator: "-", minimum_width: "10px" });
+});
+        
+        $(document).ready(function(){
+        $(".radio label").addClass("flex");
+});
+    </script>
+	
 
 
 </body>

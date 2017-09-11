@@ -141,6 +141,10 @@ body{
     border-radius: 0 5px 5px 0;
     border-left: 0.5px;
 }
+.btn-succ-middle{
+    border-radius: 0px;
+    border-left:0;
+}
 .padding0{
     padding: 0;
 }
@@ -151,12 +155,47 @@ body{
     padding-left:10px !important;
     padding-right:20px !important;
 }
+.float-right.sort{
+    padding-bottom: 0 ;
+    margin-bottom: 0;
+}
+.float-right.sort{
+    color:#666 !important;
+    list-style-type: none;
+}
+.float-right.sort li a{
+    color:#666 !important;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.sort li a:hover, .sort li a:focus{
+    border-bottom:2px solid #00b4a0;
+    color:#00b4a0;
+}
+
+.hr{
+    border-bottom: 0.1px solid lightgrey;
+}
+nav.navbar.hidden-xs {
+    padding-left: 30px;
+    padding-right: 30px;;
+}
 .nav li a:focus, .nav li a:hover {
     background: none !important;
 }
 .nav li a {
     color:#666 !important;
 }
+.float-right{
+    float:right;
+    padding: 10px 10px;
+}
+.float-left{
+    float:left;
+    padding: 10px 0 10px 17px;;
+}
+
 .well{
     margin-bottom: 0;
     padding: 0;
@@ -175,7 +214,10 @@ h4{
 }
 .contentarea{
     background:#fafafa;
-    
+    padding-left: 0;
+}
+.contentarea2{
+    background:#fafafa;   
 }
 .margin-bottom-20{
     margin-bottom: 20px;
@@ -489,6 +531,46 @@ h4{
 hr{
     margin-bottom: 0;
 }
+.smalltext{
+    font-size: 13px !important;
+    color: #666 !important;
+}
+.float-right{
+    float:right;
+}
+#slider12c .slider-selection,.tooltip-inner,.slider-handle {
+	background: #00b4a0;
+}
+div#slider12c {
+    margin-top: 45px;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #00b4a0;
+}
+.ui-slider .updated-handle {
+    background: red;
+}
+.slider-handle.min-slider-handle.round,.slider-handle.max-slider-handle.round {
+    background: #00b4a0;
+}
+.slider-track {
+    height: 2px !important;
+    margin-top:0 !important;
+}
+.radio.list-group-item {
+    border: none;
+}
+.panel{
+    border:none !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+label.flex {
+    margin-right: 10px;
+}
+
+
+
 
 .navbar-listing{
 	padding: 0px 5vw;
