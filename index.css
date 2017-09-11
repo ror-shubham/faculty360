@@ -404,9 +404,7 @@ h4{
 	color: #000;
 }
 
-.prev-button:before, .next-button:before{
-    color:red !important;
-}
+
 
 .header{
 	font-weight: 400 !important;
@@ -498,6 +496,31 @@ h4{
     box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3)
 }
 
+.prev-button-listing,
+.next-button-listing
+{
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: #4a4a4a;
+    border: none;
+    outline: none;
+    background: #fafafa;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3)
+}
+
 
 
 
@@ -516,6 +539,26 @@ h4{
 {
     right: -4vw;
     z-index: 1
+}
+
+.prev-button-listing
+{
+    left: -3vw;
+    z-index: 1;
+}
+
+.next-button-listing
+{
+    right: -2vw;
+    z-index: 1;
+}
+
+@media (max-width: 600px){
+.prev-button-listing-small
+{
+    left: -12vw !important;
+    z-index: 1;
+}
 }
 
 .btn-span{
@@ -594,4 +637,36 @@ label.flex {
 	padding-top: 10px;
 	width: 20px;
 	height: 40px;
+}
+
+.slider-listing{
+	padding: 10px 100px;
+}
+
+@media (max-width: 600px){
+.slider-listing-small{
+	padding: 10px 60px;
+}
+}
+
+.btn-slider-listing{
+	background: transparent;
+	border-color: #64BBFB;
+	color: #64BBFB;
+}
+
+
+.btn-slider-listing:hover, .btn-slider-listing:focus{
+	background: #64BBFB;
+	border-color:  #64BBFB;
+	color: white;
+}
+
+.head-text{
+	padding: 20px 6vw;
+}
+
+a{
+	color: inherit;
+	white-space: nowrap;
 }
