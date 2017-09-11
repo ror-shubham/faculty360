@@ -4,19 +4,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-	<title>Faculty 360</title>
+	<title>Job Listings</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="index.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
 </head>
 <body>  
-    
+	
+    <div class="navbar-listing flex-container-listing" style="margin-bottom:0;">
+    	<img src="icons/burger.png" class="burger hidden-lg hidden-md hidden-sm" data-toggle="collapse" data-target="#demo">
+    	<img class="img-nav-listing img-nav-small-listing" style="margin-top:10px;" src="logo.png">
+    	<div class="searchbar-listing flex-item-listing">
+    		<form class="form-big-listing form-small-listing form-xs-listing">
+    			 <button class="btn btn-lg button-mobile hidden-sm hidden-md hidden-lg" type="submit">
+    					<i class="glyphicon glyphicon-search"></i>
+    			 </button> 
+    		    <div class="input-group row hidden-xs">
+    			    <input type="text" class="form-control input-lg input-search input-search-small form-listing" placeholder="Search skills, roles and specializtions">
+    			    <div class="input-group-btn">
+    			        <button class="btn btn-lg button-search button-search-large button-search-small btn-search-listing" type="submit">
+    			       		<i class="glyphicon glyphicon-search"></i>
+    			        </button>    			     
+    			       		<i class="glyphicon glyphicon-search"></i>
+    			        </button>
+    			    </div>
+    		    </div>
+    		</form>
+    		
+    	</div>
+    	<button class="btn btn-md btn-nav btn-nav-small not-active hidden-xs">LOG IN</button>
+    	<button class="btn btn-md btn-nav btn-nav-small btn-active hidden-xs">SIGN UP</button>
+    </div>
+    <div id="demo" class="collapse">
+    	<button class="btn btn-md btn-nav not-active ">LOG IN</button>
+    	<button class="btn btn-md btn-nav btn-active ">SIGN UP</button>
+    </div>
     
     <footer class="container-fluid hidden-xs">
         <nav class="navbar navbar-top">
@@ -72,7 +97,6 @@
           </div>
         </nav>
       </footer>   
-	
 
 
 </body>
