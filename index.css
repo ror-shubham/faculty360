@@ -25,6 +25,15 @@ body{
 	padding-right: 30px;
 	padding-left: 30px;
 }
+.glyphicon{
+    color: #777;
+}
+.glyphicon-triangle-left,.glyphicon-triangle-right{
+    color: #00b4a0 !important;
+}
+.glyphicon-filter{
+    color: white !important;
+}
 
 .jobcard h3,.jobcard h4, .h1grey{
   color: #666 !important;
@@ -207,6 +216,9 @@ nav.navbar.hidden-xs {
 }
 h4{
     color:#00b4a0;
+}
+.contentarea2 h4{
+    color:#0ba;
 }
 .contentarea{
     background:#fafafa;
@@ -649,6 +661,8 @@ label.flex {
 	background: transparent;
 	border-color: #64BBFB;
 	color: #64BBFB;
+    border-radius: 2px;
+    font-size: 17px;
 }
 
 
@@ -673,4 +687,34 @@ a{
 .statebutton{
     border-radius: 2px;
     margin-bottom: 10px;
+    margin-right: 4px;
 }
+.glyphicon{
+    color: #666;
+    cursor:pointer;
+}
+#srch-term{
+    border:0;
+    box-shadow: none;
+}
+input:focus{
+    outline: none;
+}
+select option[selected]{
+    background-color: #00b4a0;
+}
+.assistant{
+    margin-left: 20px;
+}
+.bootstrap-select.btn-group .dropdown-menu li a:hover{
+    background: rgba(0,180,160,0.6) !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li a:focus{
+    background: #0ba !important;
+}
+button.btn.dropdown-toggle.btn-default:focus{
+    outline: none !important;
+}
+
+
+
