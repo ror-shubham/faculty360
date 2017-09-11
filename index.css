@@ -141,10 +141,6 @@ body{
     border-radius: 0 5px 5px 0;
     border-left: 0.5px;
 }
-.btn-succ-middle{
-    border-radius: 0px;
-    border-left:0;
-}
 .padding0{
     padding: 0;
 }
@@ -669,4 +665,12 @@ label.flex {
 a{
 	color: inherit;
 	white-space: nowrap;
+}
+
+.filter-button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.statebutton{
+    border-radius: 2px;
+    margin-bottom: 10px;
 }
