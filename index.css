@@ -411,8 +411,8 @@ h4{
 
 .not-active, .not-active:hover, .not-active:focus{
 	background: #fff;
-	color: #000;
-    outline: none !important; 
+	color: #484848;
+    box-shadow: none; 
 }
 
 
@@ -632,6 +632,11 @@ label.flex {
     box-shadow: 0 3px 3px rgba(0,0,0,0.05), 0 3px 3px rgba(0,0,0,0.05);
 }
 
+.navbar-index{
+    padding: 15px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05), 0 3px 3px rgba(0,0,0,0.05);
+}
+
 .form-listing{
 	background: #FAFAFA;
 	border-bottom-right-radius:0;
@@ -689,8 +694,25 @@ a{
 }
 .filter-button:focus{
     outline: none;
-    border: none;
-    
+    border: none;    
+    position: relative;
+}
+.filter-button:before {
+    content: attr(data-count);
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+    font-style: 13px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #64bbfb;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    color: #64bbfb;
+    position: absolute;
+    top: -7px;
+    left: -7px;
 }
 .statebutton{
     border-radius: 2px;
@@ -784,4 +806,11 @@ a:hover{
     background: #0ba !important;
     color: #fff !important;
     padding: 5px 10px 5px 10px !important;
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.index-buttons{
+    
 }
