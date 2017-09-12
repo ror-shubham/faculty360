@@ -380,6 +380,9 @@ h4{
 .detailarea{
     padding:20px 20px 20px 20px;
 }
+.sidebar{
+    margin: 20px;
+}    
 }
 
 @media (min-width: 768px){
@@ -609,9 +612,11 @@ div#slider12c {
     height: 2px !important;
     margin-top:0 !important;
 }
-.radio.list-group-item {
+
+.checkbox.list-group-item {
     border: none;
 }
+
 .panel{
     border:none !important;
     border-radius: 0 !important;
@@ -680,6 +685,12 @@ a{
 
 .filter-button{
     box-shadow: 0 3px 3px rgba(0,0,0,0.05), 0 3px 3px rgba(0,0,0,0.05);
+    background: #0ba;
+}
+.filter-button:focus{
+    outline: none;
+    border: none;
+    
 }
 .statebutton{
     border-radius: 2px;
@@ -751,4 +762,26 @@ a:hover{
 
 .shadow{
     box-shadow: 0 3px 3px rgba(0,0,0,0.05), 0 3px 3px rgba(0,0,0,0.05);
+}
+.noUi-horizontal {
+    height: 2px !important;
+}
+.noUi-horizontal .noUi-handle {
+    width: 12px !important;
+    height: 12px !important;
+    left: -7px !important;
+    top: -6px !important;
+    background:#0ba !important;
+    border:none !important;
+    box-shadow: none !important;
+}
+.noUi-handle:before,.noUi-handle:after {
+    content:none !important;
+}
+.noUi-tooltip {
+    border: none !important;
+    border-radius: 2px !important;
+    background: #0ba !important;
+    color: #fff !important;
+    padding: 5px 10px 5px 10px !important;
 }
