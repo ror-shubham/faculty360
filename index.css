@@ -65,6 +65,13 @@ b{
 	font-size: 14px;
 	}
 }
+@media (min-width: 1160px){
+    .detail-button {
+    display: flex;
+    justify-content: flex-end;
+}
+}
+
 @media (max-width: 992px){
 .input-search-small{
 	border-radius: 4px;
@@ -826,3 +833,6 @@ a:hover{
     border-left: solid 5px transparent;
     border-right: solid 5px transparent;
 }
+
+
+
