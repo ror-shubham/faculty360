@@ -802,15 +802,26 @@ a:hover{
 }
 .noUi-tooltip {
     border: none !important;
-    border-radius: 2px !important;
+    border-radius: 6px !important;
     background: #0ba !important;
     color: #fff !important;
     padding: 5px 10px 5px 10px !important;
+    margin-bottom: 7px !important;
+}
 
 .font-size-12{
     font-size: 12px;
 }
 
-.index-buttons{
-    
+.noUi-tooltip:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    border-top: solid 5px #0ba;
+    border-left: solid 5px transparent;
+    border-right: solid 5px transparent;
 }
