@@ -378,8 +378,12 @@ h4{
 .navbar{
 	padding: 15px;
 }
+.detailarea{
+    padding:20px 200px 20px 50px;
+    background: #F7F7F7;
+}
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 .btn-nav-small{
     float: right;
 	font-weight: 500;
@@ -387,6 +391,13 @@ h4{
 	padding-left: 4px;
 	outline: none !important;
 	}
+.detail-button{
+    float:left !important;
+    margin-left: 20px;
+}
+.detailarea{
+    padding:20px 20px 20px 20px;
+}
 }
 
 @media (min-width: 768px){
@@ -400,11 +411,17 @@ h4{
 	}
 }
 
-.btn-active,.btn-active:hover, .btn-active:focus{
+.btn-active{
 	background: #00B4A0;
 	color: #fff;
 	
 }
+
+.btn-active:hover, .btn-active:focus{
+    background: #00897a;
+    color: #fff;
+}
+
 
 
 .not-active, .not-active:hover, .not-active:focus{
@@ -678,7 +695,6 @@ label.flex {
 
 a{
 	color: inherit;
-	white-space: nowrap;
 }
 
 .filter-button{
@@ -716,5 +732,26 @@ button.btn.dropdown-toggle.btn-default:focus{
     outline: none !important;
 }
 
+.card-details{
+		
+}
+.margin-left-20{
+    margin-left: 20px;
+}
+.bullet li{
+    list-style: none;
+}
+ul.bullet{
+    padding-left: 0px;
+}
+.bullet li::before {
+  content: "• ";
+  color: rgba(153, 153, 153, 0.45);
+  font-size: 30px;
+  margin-right:10px;/* or whatever color you prefer */
+}
 
+.head-text-detail{
+    padding: 0 0 20px 0;
+}
 
