@@ -79,7 +79,7 @@ b{
 @media (max-width: 992px){
 .input-search-small{
 	border-radius: 4px;
-	font-size: 14px;
+	font-size: 12px;
 	}
 }
 
@@ -747,8 +747,11 @@ input:focus{
 select option[selected]{
     background-color: #00b4a0;
 }
-.assistant{
-    margin-left: 20px;
+
+@media (min-width: 768px){
+    .assistant{
+        margin-left: 20px;
+    }
 }
 .bootstrap-select.btn-group .dropdown-menu li a:hover{
     background: rgba(0,180,160,0.6) !important;
