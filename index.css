@@ -699,11 +699,11 @@ a{
 .filter-button{
     box-shadow: 0 3px 3px rgba(0,0,0,0.05), 0 3px 3px rgba(0,0,0,0.05);
     background: #0ba;
+    position: relative;
 }
 .filter-button:focus{
     outline: none;
     border: none;    
-    position: relative;
 }
 .filter-button:before {
     content: attr(data-count);
@@ -721,6 +721,7 @@ a{
     position: absolute;
     top: -7px;
     left: -7px;
+    float: right;
 }
 .statebutton{
     border-radius: 2px;
@@ -821,6 +822,10 @@ a:hover{
     font-size: 12px;
 }
 
+.font-size-16{
+    font-size: 16px;
+}
+
 
 .noUi-tooltip:after {
     content:'';
@@ -835,5 +840,49 @@ a:hover{
     border-right: solid 5px transparent;
 }
 
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
 
 
+.well-college{
+    padding: 0 14.6vw;
+}
+
+@media (min-width: 768px){
+    .cards-college{
+        padding: 15px 7vw 40px 14.6vw;
+        background: #F7F7F7
+    }
+}
+
+@media (max-width: 768px){
+    .cards-college-small{
+        padding: 15px 4vw 40px 5vw;
+        background: #F7F7F7
+    }
+}
+
+@media (min-width: 768px){
+    .college-card{
+        min-height: 320px;
+        padding: 40px 40px 20px 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .college-card{
+        min-height: 220px;
+        padding: 40px 40px 20px 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.padding-top-10{
+    padding-top: 10px;
+}
