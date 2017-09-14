@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+	<title>Login</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" type="text/css" href="js/nouislider/nouislider.min.css"/>
+	<script type="text/javascript" src="js/nouislider/nouislider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/jquery-labelauty-master/source/jquery-labelauty.css"/>
+	<script type="text/javascript" src="js/jquery-labelauty-master/source/jquery-labelauty.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+    <script src="js/wnumb-1.1.0/wNumb.js"></script>
+
+</head>
+<body>
+    
+    <div class="navbar" style="margin-bottom:0;">
+    	<img class="img-nav hidden-xs" style="margin-top:10px;" src="logo.png">
+    	<img class="img-nav-small hidden-lg hidden-md hidden-sm" src="logo.png">
+    	<img class="pull-right img-circle dropdown-toggle" data-toggle="dropdown" src="http://www.hellomagazine.com/imagenes/celebrities/2017071940758/Emma-Watson-appeals-missing-rings/0-213-47/emma-watson-t.jpg" alt="Cinque Terre" width="45" height="45"/>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Emma Watson</a></li>
+          <li class="divider"></li>    
+          <li><a href="#">lorem ipsum</a></li>
+          <li><a href="#">ipsum idit</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

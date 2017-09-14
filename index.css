@@ -121,6 +121,7 @@ b{
     align-items: center;
     justify-content: left;
 }
+
 .header{
     padding:7pxpx 0;
     border-radius: 0;
@@ -698,6 +699,8 @@ label.flex {
 
 a{
 	color: inherit;
+    cursor:pointer;
+    color:#0ba;
 }
 
 .filter-button{
@@ -914,6 +917,9 @@ a:hover{
 #college-nav{
     padding-left: 236px;
 }
+.login{
+    min-width: 350px;
+}
 @media (max-width: 768px){
     .cards-college-small{
         padding: 15px 4vw 40px 5vw;
@@ -928,4 +934,13 @@ a:hover{
     padding-right: 0px;
         font-size: 13px;
 }
+    .login{
+    min-width: 280px;
+}
+}
+.signup{
+    background: rgba(245, 245, 245, 0.43);
+}
+.colorgrey{
+    color: #6b6b6b;
 }

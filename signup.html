@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-	<title>Login</title>
+	<title>Signup</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -38,27 +38,28 @@
         <div>
             <div class="well login">
                 <div class="container-fluid padding-top-20 padding-bottom-20">
-                  <h2 class="text-center h1grey">Log In</h2>
+                  <h2 class="text-center h1grey">Sign Up</h2>
                   <form action="/action_page.php">
                     <div class="form-group padding-top-20 colorgrey">
-                      <label for="email">Username/Email:</label>
+                      <label for="email">Username:</label>
                       <input type="email" class="form-control" id="email" placeholder="Enter username or email" name="email">
                     </div>
                     <div class="form-group colorgrey">
-                      <label for="pwd">Password:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                      <label for="pwd">Create password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd">
                     </div>
-                    <div class="checkbox">
-                      <label><input type="checkbox" name="remember"> Remember me</label>
-                    </div>
-                    <div class="flex_justify_content"><button type="submit" class="btn btn-active">Submit</button></div> 
+                    <div class="form-group colorgrey">
+                      <label for="pwd">Confirm password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd">
+                    </div>  
+                    
+                    <div class="flex_justify_content padding-top-20"><button type="submit" class="btn btn-active">Submit</button></div>  
+                    
                   </form>
                 </div>
             </div>
-            <div class="padding-top-10 text-center">Don't have an account? <a href="#">Sign up</a></div>
+            <div class="padding-top-10 text-center">Already have an account? <a href="#">Log In</a></div>
         </div>
-                    
-
     </div>
     <footer class="container-fluid hidden-xs">
         <nav class="navbar-top">
