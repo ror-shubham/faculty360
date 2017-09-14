@@ -24,6 +24,10 @@ b{
 .padding-left-10{
     padding-left: 10px;
 }
+.padding-right-60{
+    padding-left: 60px;
+}
+
 .color-yellow{
 	background-color: #FDD359 !important;
 	padding-right: 30px;
@@ -851,13 +855,13 @@ a:hover{
 
 @media (min-width: 768px){
     .well-college{
-        padding: 0 14.6vw;
+        padding: 20px 14.6vw;
     }
 }
 
 @media (max-width: 768px){
     .well-college{
-        padding: 0 6.6vw;
+        padding: 10px 6.6vw;
     }
 }
 
@@ -868,12 +872,7 @@ a:hover{
     }
 }
 
-@media (max-width: 768px){
-    .cards-college-small{
-        padding: 15px 4vw 40px 5vw;
-        background: #F7F7F7
-    }
-}
+
 
 @media (min-width: 768px){
     .college-card{
@@ -893,4 +892,30 @@ a:hover{
 
 .padding-top-10{
     padding-top: 10px;
+}
+.padding-bottom-10{
+    padding-bottom: 10px;
+}
+
+.underline{
+    height: 79px;
+    width: 60px;
+    border-bottom: 0.1px solid lightgrey;
+}
+.sort.list-inline li a{
+    text-decoration: none;
+    color: #666;
+}
+#college-nav{
+    padding-left: 236px;
+}
+@media (max-width: 768px){
+    .cards-college-small{
+        padding: 15px 4vw 40px 5vw;
+        background: #F7F7F7
+    }
+    #college-nav{
+        padding-left:17px;
+        padding-top: 10px;
+    }
 }
