@@ -133,6 +133,7 @@ b{
     background: none;
     color:#00b4a0;
     border:1px solid #00b4a0;
+    min-width: 102px;
 }
 .btn-succ:hover,.btn-succ:focus{
     background: none;
