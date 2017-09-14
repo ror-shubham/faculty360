@@ -908,6 +908,8 @@ a:hover{
 .sort.list-inline li a{
     text-decoration: none;
     color: #666;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #college-nav{
     padding-left: 236px;
@@ -921,4 +923,9 @@ a:hover{
         padding-left:17px;
         padding-top: 10px;
     }
+    .sort.list-inline li a{
+    padding-left: 0px;
+    padding-right: 0px;
+        font-size: 13px;
+}
 }
