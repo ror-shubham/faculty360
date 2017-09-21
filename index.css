@@ -436,10 +436,11 @@ h4{
 
 .jobcardwell{
     padding: 15px 0 ;
-    height: 260px !important;
+    min-height: 260px !important;
     background: #FFF !important;
     border-radius: 3px;
 }
+
 
 .jobcardbutton {
     min-width: 120px !important;
